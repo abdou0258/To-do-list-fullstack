@@ -21,7 +21,7 @@ app.use(cors())
 
 
 // Serve static files from the 'Frontend' directory
-app.use(express.static("../Frontend"));
+app.use(express.static("./Frontend"));
 
 // API routes
 app.use('/auth',authRouter)
